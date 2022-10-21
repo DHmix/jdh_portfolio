@@ -4,13 +4,13 @@
     padding-top:30px;
     margin-top: 200px;
     margin-bottom: 50px;
-    
+    border-radius: 25px;
   }
   #board2>.cen {
     width: 100%;
     max-width: 1200px;
     margin: auto;
-    border-radius: 20px;
+    
     
   }
   .three{
@@ -57,8 +57,12 @@
     height: 900px;
     flex-shrink: 0;
     transition: left 0.5s;
-    
   }
+  .tsmall_2>p{
+    margin-bottom: 50px;
+  
+  }
+
   .icoimg{
   
     width:80%;
@@ -80,7 +84,7 @@
 .tbox:hover {
   transition: all 0.3s;
     color: black;
-    background-color: rgb(104, 132, 255);
+    background-color: rgb(255, 255, 255);
 }
 .tbox {
     
@@ -128,12 +132,15 @@
   width:80px;
   height: 30px;
   font-weight: bold;
-  background-color:#b7fff9;
+  background-color:#494949;
   border:none;
  border-radius: 30px;
  margin-top: 10px;
  margin-bottom: 10px;
   user-select: none;
+}
+.gopage>a{
+  color: white;
 }
 .gopage1{ 
   width:80px;
@@ -146,6 +153,8 @@
  margin-bottom: 10px;
   user-select: none;
 }
+
+
 .threejs{
   width:25px;
 }

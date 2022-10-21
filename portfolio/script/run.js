@@ -40,7 +40,7 @@ import { OrbitControls } from 'OrbitControls';
         controls.enableZoom = false;
        
       const loader = new GLTFLoader();
-      loader.load('gltf/polyearth.glb', function(gltf){
+      loader.load('gltf/polyearth2.glb', function(gltf){
           scene.add(gltf.scene);
 
         function resizeRendererToDisplaySize(renderer) {

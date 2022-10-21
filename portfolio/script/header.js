@@ -27,7 +27,7 @@ $(document).ready(function(){
   
           scrollTop: $(hash).offset().top
   
-        }, 800, function(){
+        }, 80, function(){
   
           window.location.hash = hash;
   
